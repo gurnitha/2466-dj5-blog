@@ -536,3 +536,12 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         new file:   templates/blog/base.html
         new file:   templates/blog/post/detail.html
         new file:   templates/blog/post/list.html
+
+
+#### 6. Mensetup static file path dan mengisi blog.css
+
+        modified:   README.md
+        new file:   app/blog/static/css/blog.css
+        modified:   config/settings.py
+
+
