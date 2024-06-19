@@ -160,3 +160,14 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         renamed:    config/config/urls.py -> src/config/urls.py
         renamed:    config/config/wsgi.py -> src/config/wsgi.py
         renamed:    config/manage.py -> src/manage.py
+
+
+#### 3. Memindahkan file .gitignore dan README.md ke dalam folder src (root direktori)
+
+        modified:   README.md
+        renamed:    src/config/__init__.py -> config/__init__.py
+        renamed:    src/config/asgi.py -> config/asgi.py
+        renamed:    src/config/settings.py -> config/settings.py
+        renamed:    src/config/urls.py -> config/urls.py
+        renamed:    src/config/wsgi.py -> config/wsgi.py
+        renamed:    src/manage.py -> manage.py
