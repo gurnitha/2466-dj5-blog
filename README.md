@@ -487,3 +487,9 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
 
         modified:   README.md
         modified:   app/blog/admin.py
+
+
+#### 13. Menyesuaikan cara model ditampilkan pada admin panel part 3 (Menambahkan jumlah faset ke filter)
+
+        modified:   README.md
+        modified:   app/blog/admin.py
