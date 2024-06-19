@@ -208,3 +208,10 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         new file:   app/blog/models.py
         new file:   app/blog/tests.py
         new file:   app/blog/views.py
+
+
+#### 6. Mendaftarkan aplikasi blog pada config/settings.py
+
+        modified:   README.md
+        modified:   app/blog/apps.py
+        modified:   config/settings.py
