@@ -517,3 +517,7 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         modified:   app/blog/views.py
 
 
+#### 3. Menggunakan get_object_or_404 shortcut
+
+        modified:   README.md
+        modified:   app/blog/views.py
