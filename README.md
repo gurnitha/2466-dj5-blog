@@ -67,3 +67,19 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
 
         [notice] A new release of pip is available: 23.2.1 -> 24.0
         [notice] To update, run: python.exe -m pip install --upgrade pip
+
+
+#### 4. Meng-upgrade pip
+
+        (dj5-blog) λ python.exe -m pip install --upgrade pip
+        Requirement already satisfied: pip in e:\_workspace\2024\django\2466\2466-django-5-by-example\2466-dj5-blog\venv312504\lib\site-packages (23.2.1)
+        Collecting pip
+          Obtaining dependency information for pip from https://files.pythonhosted.org/packages/8a/6a/19e9fe04fca059ccf770861c7d5721ab4c2aebc539889e97c7977528a53b/pip-24.0-py3-none-any.whl.metadata
+          Using cached pip-24.0-py3-none-any.whl.metadata (3.6 kB)
+        Using cached pip-24.0-py3-none-any.whl (2.1 MB)
+        Installing collected packages: pip
+          Attempting uninstall: pip
+            Found existing installation: pip 23.2.1
+            Uninstalling pip-23.2.1:
+              Successfully uninstalled pip-23.2.1
+        Successfully installed pip-24.0
