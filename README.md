@@ -149,3 +149,14 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
                 urls.py
                 wsgi.py
                 __init__.py
+
+
+#### 2. Mengganti nama config (terluar) menjadi src
+
+        modified:   README.md
+        renamed:    config/config/__init__.py -> src/config/__init__.py
+        renamed:    config/config/asgi.py -> src/config/asgi.py
+        renamed:    config/config/settings.py -> src/config/settings.py
+        renamed:    config/config/urls.py -> src/config/urls.py
+        renamed:    config/config/wsgi.py -> src/config/wsgi.py
+        renamed:    config/manage.py -> src/manage.py
