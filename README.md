@@ -331,3 +331,7 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         |  1 | superuser | superuser@mail.com |
         +----+-----------+--------------------+
         1 row in set (0.00 sec)
+
+
+
+## 5. MODELS
