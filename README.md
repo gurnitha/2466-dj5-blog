@@ -545,3 +545,8 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         modified:   config/settings.py
 
 
+#### 7. Membuat base template
+
+        modified:   README.md
+        modified:   templates/blog/base.html
+
