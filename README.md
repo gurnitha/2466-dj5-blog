@@ -359,3 +359,9 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
 
         modified:   README.md
         modified:   app/blog/models.py
+
+
+#### 4. Menambahkan definisi pengurutan
+
+        modified:   README.md
+        modified:   app/blog/models.py
