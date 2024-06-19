@@ -171,3 +171,28 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         renamed:    src/config/urls.py -> config/urls.py
         renamed:    src/config/wsgi.py -> config/wsgi.py
         renamed:    src/manage.py -> manage.py
+
+
+#### 4. Menjalankan developmen server dan melihat tampilan default laman Django
+
+        (dj5-blog) λ REM: Menjalankan developmen server
+
+        E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog\src(main -> origin)
+        (dj5-blog) λ ls
+        config/  manage.py*  README.md
+
+        E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog\src(main -> origin)
+        (dj5-blog) λ python manage.py runserver
+        Watching for file changes with StatReloader
+        Performing system checks...
+
+        System check identified no issues (0 silenced).
+
+        You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+        Run 'python manage.py migrate' to apply them.
+        June 19, 2024 - 08:35:57
+        Django version 5.0.4, using settings 'config.settings'
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
+
+        [19/Jun/2024 08:39:57] "GET / HTTP/1.1" 200 10629
