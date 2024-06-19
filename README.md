@@ -579,3 +579,9 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         Quit the server with CTRL-BREAK.
 
         Buka http://127.0.0.1:8000/blog/ di browser Anda, dan Anda akan melihat tampilan seperti di bawah ini:
+
+
+#### 10. Membuat post detail template
+
+        modified:   README.md
+        modified:   templates/blog/post/detail.html
