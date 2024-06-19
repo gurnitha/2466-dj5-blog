@@ -219,3 +219,6 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
 
 
 ## 3. DATABASE
+
+
+#### 1. Membuat MySQL database
