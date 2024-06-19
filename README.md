@@ -84,6 +84,68 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
               Successfully uninstalled pip-23.2.1
         Successfully installed pip-24.0
 
-        
+
 
 ## 2. MEMBUAT PROYEK DAN APLIKASI DJANGO
+
+
+#### 1. Membuat proyek Django dengan nama config
+
+        (dj5-blog) λ REM: Membuat proyek Django dengan nama config
+
+        E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog(main -> origin)
+        (dj5-blog) λ django-admin
+
+        Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+        Available subcommands:
+
+        [django]
+            check
+            compilemessages
+            createcachetable
+            dbshell
+            diffsettings
+            dumpdata
+            flush
+            inspectdb
+            loaddata
+            makemessages
+            makemigrations
+            migrate
+            optimizemigration
+            runserver
+            sendtestemail
+            shell
+            showmigrations
+            sqlflush
+            sqlmigrate
+            sqlsequencereset
+            squashmigrations
+            startapp
+            startproject
+            test
+            testserver
+        Note that only Django core commands are listed as settings are not properly configured (error: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.).
+
+
+        E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog(main -> origin)
+        (dj5-blog) λ django-admin startproject config
+
+        E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog(main -> origin)
+        (dj5-blog) λ ls
+        config/  README.md  venv312504/
+
+        E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog(main -> origin)
+        (dj5-blog) λ tree config /f
+        Folder PATH listing for volume Local Disk
+        Volume serial number is C0000100 42EB:BBDC
+        E:\_WORKSPACE\2024\DJANGO\2466\2466-DJANGO-5-BY-EXAMPLE\2466-DJ5-BLOG\CONFIG
+        │   manage.py
+        │
+        └───config
+                asgi.py
+                settings.py
+                urls.py
+                wsgi.py
+                __init__.py
