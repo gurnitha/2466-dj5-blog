@@ -335,3 +335,9 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
 
 
 ## 5. MODELS
+
+
+#### 1. Membuat model Post
+
+        modified:   README.md
+        modified:   app/blog/models.py
