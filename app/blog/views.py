@@ -14,3 +14,14 @@ def post_list(request):
 		'posts': posts
 	}
 	return render(request,'blog/post/list.html', data)
+
+
+def post_detail(request, id):
+	try:
+		post = Post.published.get(id=id)
+	except Post.DoesNotExist:
+		raise Http404("No Post found.")
+	data = {
+		'post': post
+	}
+	return render(request,blog/post/detail.html', data)
