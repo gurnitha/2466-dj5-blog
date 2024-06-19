@@ -196,3 +196,15 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         Quit the server with CTRL-BREAK.
 
         [19/Jun/2024 08:39:57] "GET / HTTP/1.1" 200 10629
+
+
+#### 5. Membuat aplikasi blog di dalam folder app
+
+        modified:   README.md
+        new file:   app/blog/__init__.py
+        new file:   app/blog/admin.py
+        new file:   app/blog/apps.py
+        new file:   app/blog/migrations/__init__.py
+        new file:   app/blog/models.py
+        new file:   app/blog/tests.py
+        new file:   app/blog/views.py
