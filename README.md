@@ -222,3 +222,27 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
 
 
 #### 1. Membuat MySQL database
+
+        mysql> drop DATABASE 2466_dJ5_blog;
+        Query OK, 0 rows affected (0.29 sec)
+
+        mysql> CREATE DATABASE 2466_dj5_blog;
+        Query OK, 1 row affected (0.05 sec)
+
+        mysql> SHOW databases;
+        +---------------------------------------------------------+
+        | Database                                                |
+        +---------------------------------------------------------+
+        | 2466_dj5_blog                                           |
+        +---------------------------------------------------------+
+        1 rows in set (0.02 sec)
+
+
+#### 2. Menginstal MySQL driver
+
+        (dj5-blog) λ pip install mysqlclient
+        Collecting mysqlclient
+          Using cached mysqlclient-2.2.4-cp312-cp312-win_amd64.whl.metadata (4.6 kB)
+        Using cached mysqlclient-2.2.4-cp312-cp312-win_amd64.whl (203 kB)
+        Installing collected packages: mysqlclient
+        Successfully installed mysqlclient-2.2.4
