@@ -556,3 +556,26 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         modified:   README.md
         modified:   config/settings.py
         modified:   templates/blog/post/list.html
+
+
+#### 9. Meng-akses aplikasi
+
+        (dj5-blog) λ REM: Meng-akses aplikasi
+
+        E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog\src(main -> origin)
+        (dj5-blog) λ python manage.py runserver
+        Watching for file changes with StatReloader
+        Performing system checks...
+
+        System check identified some issues:
+
+        WARNINGS:
+        ?: (staticfiles.W004) The directory 'E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog\src\static' in the STATICFILES_DIRS setting does not exist.
+
+        System check identified 1 issue (0 silenced).
+        June 19, 2024 - 14:51:19
+        Django version 5.0.4, using settings 'config.settings'
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
+
+        Buka http://127.0.0.1:8000/blog/ di browser Anda, dan Anda akan melihat tampilan seperti di bawah ini:
