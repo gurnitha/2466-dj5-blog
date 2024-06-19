@@ -246,3 +246,9 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         Using cached mysqlclient-2.2.4-cp312-cp312-win_amd64.whl (203 kB)
         Installing collected packages: mysqlclient
         Successfully installed mysqlclient-2.2.4
+
+
+#### 3. Menghubungkan proyek Django dengan MySQL database
+
+        modified:   README.md
+        modified:   config/settings.py
