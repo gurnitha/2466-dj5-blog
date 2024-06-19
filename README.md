@@ -389,3 +389,83 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
 
         modified:   README.md
         modified:   app/blog/models.py
+
+
+#### 9. Membuat dan mengaplikasikan migrasi
+
+        modified:   README.md
+        new file:   app/blog/migrations/0001_initial.py
+        
+        (dj5-blog) λ REM: Membuat dan mengaplikasikan migrasi
+
+        E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog\src(main -> origin)
+        (dj5-blog) λ python manage.py makemigrations blog
+        Migrations for 'blog':
+          app\blog\migrations\0001_initial.py
+            - Create model Post
+
+        E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example\2466-dj5-blog\src(main -> origin)
+        (dj5-blog) λ python manage.py migrate blog 0001
+        Operations to perform:
+          Target specific migration: 0001_initial, from blog
+        Running migrations:
+          Applying blog.0001_initial... OK
+
+
+        (dj5-blog) λ python manage.py sqlmigrate blog 0001
+        --
+        -- Create model Post
+        --
+        
+        CREATE TABLE `blog_post` (
+        `id` bigint AUTO_INCREMENT NOT NULL PRIMARY KEY, 
+        `title` varchar(250) NOT NULL, 
+        `slug` varchar(250) NOT NULL, 
+        `body` longtext NOT NULL, 
+        `publish` datetime(6) NOT NULL, 
+        `created` datetime(6) NOT NULL, 
+        `updated` datetime(6) NOT NULL, 
+        `status` varchar(2) NOT NULL, 
+        `author_id` integer NOT NULL);
+        ALTER TABLE `blog_post` 
+        ADD CONSTRAINT `blog_post_author_id_dd7a8485_fk_auth_user_id` 
+        FOREIGN KEY (`author_id`) REFERENCES `auth_user` (`id`);
+        CREATE INDEX `blog_post_slug_b95473f2` ON `blog_post` (`slug`);
+        CREATE INDEX `blog_post_publish_bb7600_idx` ON `blog_post` (`publish` DESC);
+
+        mysql> SHOW tables;
+        +----------------------------+
+        | Tables_in_2466_dj5_blog    |
+        +----------------------------+
+        | auth_group                 |
+        | auth_group_permissions     |
+        | auth_permission            |
+        | auth_user                  |
+        | auth_user_groups           |
+        | auth_user_user_permissions |
+        | blog_post                  |
+        | django_admin_log           |
+        | django_content_type        |
+        | django_migrations          |
+        | django_session             |
+        +----------------------------+
+        11 rows in set (0.00 sec)
+
+        mysql> DESC blog_post;
+        +-----------+--------------+------+-----+---------+----------------+
+        | Field     | Type         | Null | Key | Default | Extra          |
+        +-----------+--------------+------+-----+---------+----------------+
+        | id        | bigint       | NO   | PRI | NULL    | auto_increment |
+        | title     | varchar(250) | NO   |     | NULL    |                |
+        | slug      | varchar(250) | NO   | MUL | NULL    |                |
+        | body      | longtext     | NO   |     | NULL    |                |
+        | publish   | datetime(6)  | NO   | MUL | NULL    |                |
+        | created   | datetime(6)  | NO   |     | NULL    |                |
+        | updated   | datetime(6)  | NO   |     | NULL    |                |
+        | status    | varchar(2)   | NO   |     | NULL    |                |
+        | author_id | int          | NO   | MUL | NULL    |                |
+        +-----------+--------------+------+-----+---------+----------------+
+        9 rows in set (0.00 sec)
+
+        mysql> SELECT * FROM blog_post;
+        Empty set (0.02 sec)
