@@ -83,3 +83,7 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
             Uninstalling pip-23.2.1:
               Successfully uninstalled pip-23.2.1
         Successfully installed pip-24.0
+
+        
+
+## 2. MEMBUAT PROYEK DAN APLIKASI DJANGO
