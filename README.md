@@ -416,7 +416,7 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
         --
         -- Create model Post
         --
-        
+
         CREATE TABLE `blog_post` (
         `id` bigint AUTO_INCREMENT NOT NULL PRIMARY KEY, 
         `title` varchar(250) NOT NULL, 
@@ -469,3 +469,9 @@ Local:E:\_WORKSPACE\2024\django\2466\2466-django-5-by-example
 
         mysql> SELECT * FROM blog_post;
         Empty set (0.02 sec)
+
+
+#### 10. Mendaftarkan model Post pada blog/admin.py dan membuat post melalui admin panel
+
+        modified:   README.md
+        modified:   app/blog/admin.py
